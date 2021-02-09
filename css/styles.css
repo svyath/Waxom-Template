@@ -610,7 +610,7 @@ body {
     font-size: 16px;
     font-weight: 300;
     color: #8c8c8c;
-    background: url("https://svyath.github.io/images/arrow-01.png") left no-repeat;
+    background: url("../images/arrow-01.png") left no-repeat;
     padding-left: 45px;
     line-height: 32px;
 }
