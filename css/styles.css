@@ -173,10 +173,7 @@ body {
     margin-right: 30px;
 }
 
-.design,
-.development,
-.customization,
-.marketing {
+.grid-item {
     display: grid;
     justify-items: center;
     align-items: center;
@@ -184,18 +181,12 @@ body {
     padding-top: 90px;
 }
 
-.design:hover .service-title,
-.development:hover .service-title,
-.customization:hover .service-title,
-.marketing:hover .service-title {
+.grid-item:hover .service-title {
     color: #c7b299;
     transition: 0.2s;
 }
 
-.design:hover .service-line,
-.development:hover .service-line,
-.customization:hover .service-line,
-.marketing:hover .service-line {
+.grid-item:hover .service-line {
     background-color: #c7b299;
     transition: 0.2s;
 }
@@ -1035,8 +1026,8 @@ body {
         grid-template-columns: auto auto;
     }
 
-    .customization,
-    .marketing {
+    .grid-container:nth-child(3),
+    .grid-container:nth-child(4) {
         padding: 0;
     }
 
@@ -1195,7 +1186,7 @@ body {
         grid-template-columns: auto;
     }
 
-    .development {
+    .grid-container:nth-child(2) {
         padding: 0;
     }
 
